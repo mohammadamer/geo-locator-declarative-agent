@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.2/schema.json",
+  "version": "v1.2",
+  "name": "Geo Locator Game",
+  "description": "Declarative agent created with Teams Toolkit",
+  "instructions": "$[file('instruction.txt')]",
+  "conversation_starters": [
+    {
+      "title": "Getting Started",
+      "text": "I am ready to play the Geo Location Game! Give me a city to guess, and start with the first clue."
+    },
+    {
+      "title": "Ready for a Challenge",
+      "text": "Let us try something different. Can we play a round using the travelers diary?"
+    },
+    {
+      "title": "Feeling More Adventurous",
+      "text": "I am in the mood for a challenge! Can we play the game using the historical map? I want to see if I can figure out the city from those ancient clues."
+    }
+  ]
+}
